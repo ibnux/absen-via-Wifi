@@ -1,0 +1,8 @@
+{
+    "require": {
+        "league/plates": "^3.3",
+        "catfan/medoo": "^1.7",
+        "firebase/php-jwt": "^5.1",
+        "evilfreelancer/routeros-api-php": "^0.9.1"
+    }
+}
