@@ -71,7 +71,7 @@
     <!-- /.content-wrapper -->
 
     <!-- Main Footer -->
-    <footer class="main-footer">
+    <footer class="main-footer d-print-none">
         <!-- To the right -->
         <div class="float-right d-none d-sm-inline">
                 Abensi WiFi

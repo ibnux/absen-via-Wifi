@@ -1,6 +1,6 @@
 <?php
 
-$company_name = "PT Carsworld Digital Indonesia";
+$company_name = "PT iBNuX Mobil Solution";
 
 //DATABASE
 $db_host = 'localhost';
@@ -16,3 +16,10 @@ $mikrotik_pass  = "absensi";
 
 // host/checkme?s=secret&u=useremail
 $secret = "adsafsdfsdf";
+
+
+//SMTP login
+$mail_host = "mail.ibnux.net";
+
+//FAILED URL
+$mikrotik_host = "internet.carsworld.co.id";

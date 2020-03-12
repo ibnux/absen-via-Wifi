@@ -47,7 +47,7 @@ use Medoo\Medoo; ?>
                     {
                         $data['name'] = ucwords(str_replace('.',' ',explode('@',$data['user_id'])[0]));
                         echo "<tr>";
-                        echo "<td><a href='index.php?menu=detail&email=".$data["user_id"]."&bulan=$bulan&tahun=$tahun&source=reports' title='Detail'>".$data["name"]."</a></td>";
+                        echo "<td><a href='/report/?id=".$data["user_id"]."&bulan=$bulan&tahun=$tahun&source=reports' title='Detail'>".$data["name"]."</a></td>";
                         $name = $data["name"];
                         $email = $data["user_id"];
                         for ($h=1; $h < $tanggal+1; $h++) {

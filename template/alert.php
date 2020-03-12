@@ -4,7 +4,6 @@
     <div class="col-sm-4">
     </div>
     <div class="col-sm-4">
-        
         <div class="card bg-<?=$msgType?>">
             <div class="card-body blockquote mb-0 ">
                 <?=$msg?>
